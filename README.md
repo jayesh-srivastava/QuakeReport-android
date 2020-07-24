@@ -1,52 +1,21 @@
-Quake Report App
-===================================
+# QuakeReport
 
-This app displays a list of recent earthquakes in the world
-from the U.S. Geological Survey (USGS) organization.
+QuakeReport is an informative application which provides information about the latest 50 earthquakes in the world having a magnitude of 3.5 and above. This application fetches the data from the USGS website. The application shows the magnitude, the location, the date and the time of each earthquake. Also this application provides more information about a particular earthquake by forwading the user to the USGS website whenever the user clicks on that particular earthquake view.
 
-Used in a Udacity course in the Beginning Android Nanodegree.
+The minimum API Level of the app is 15 which means that only AVDs or Android Devices with API Level 15 or above or Android Version 4.0.3 or above will support the app.
 
-More info on the USGS Earthquake API available at:
-https://earthquake.usgs.gov/fdsnws/event/1/
+## How to run the app in your system?
+Clone the repository in your local machine and import the project into your latest version of Android Studio.
+Choose the 'app' option in the 'run/debug configurations dialog' and run it in an Android Virtual Device which has an API Level 15 or
+above.
 
-Pre-requisites
---------------
+To run the application in a RealWorld Android Device - Enable Developers Options in your Device(Click on Build number several times), followed by enabling USB Debugging. Connect your system to your device via an USB. In Android Studio, choose the target device as your device's name in the available devices dialog and click on run.
 
-- Android SDK v23
-- Android Build Tools v23.0.2
-- Android Support Repository v23.3.0
+## How to directly install the app in your android device?
+* [app-debug.apk](https://github.com/jayesh-srivastava/Scorer-android/blob/master/apk%20file/app-debug.apk)
+Open github from your android device, search for my github profile 'jayesh-srivastava' and open the QuakeReport-android repository. Scroll down to the readme file and click on the above link and click on 'view raw'. The app will be downloaded in your android device.
 
-Getting Started
----------------
 
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
+### Developed by  [@jayesh-srivastava](https://github.com/jayesh-srivastava)
 
-Support
--------
-
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2016 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+<img src="/assests/device-2020-07-24-201141.png" width="32%">&ensp; <img src="assests/device-2020-07-24-201549.png" width="32%">&ensp; <img src="assests/device-2020-07-24-202230.png" width="32%">&ensp;
