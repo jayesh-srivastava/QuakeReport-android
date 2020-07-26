@@ -1,6 +1,6 @@
 # QuakeReport
 
-QuakeReport is an informative application which provides us data about the latest 50 earthquakes in the world having a magnitude of 3.5 and above. This application fetches the real time data from the USGS website. The application shows the magnitude, the location, the date and the time of each earthquake. Also this application provides more information about a particular earthquake by forwading the user to the USGS website whenever the user clicks on that particular earthquake view.
+QuakeReport is an informative application which provides us data about the latest 50 earthquakes in the world having a magnitude of 3.5 and above. This application fetches the real time data from the USGS website. The application shows the magnitude, the location, the date and the time of each earthquake. Also this application provides more information about a particular earthquake by forwarding the user to the USGS website whenever the user clicks on that particular earthquake view.
 
 The minimum API Level of the app is 15 which means that only AVDs or Android Devices with API Level 15 or above or Android Version 4.0.3 or above will support the app.
 
